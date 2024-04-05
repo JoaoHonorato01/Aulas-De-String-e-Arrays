@@ -1,0 +1,15 @@
+package Exercicio01;
+
+public class CrieUmaStringComOseuNomeCompleto {
+
+	public static void main(String[] args) {
+String strOriginal = "Joao Victor";
+		
+		//concatenando strings cria um novo objeto String 
+		String strConcatenada = strOriginal + "Barboza Siqueira Honorato";
+		
+		System.out.println("Primeiro Nome: " + strOriginal);
+		System.out.println("Segundo Nome: " + strConcatenada);
+	}
+
+}
