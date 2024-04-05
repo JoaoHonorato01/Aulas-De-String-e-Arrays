@@ -1,0 +1,25 @@
+package Exercicio03;
+import java.util.Scanner;
+public class SoliciteNomeDeUmaCidade {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+	
+		String  str;
+		
+		System.out.println("escreva o nome da cidade");
+		str = scan.next();
+		
+		String str1 = "Curitiba";
+		
+		
+		boolean saoIguais1 = str1.equals(str);
+	
+		
+		System.out.print(saoIguais1);
+		
+		
+		scan.close();
+	}
+		
+}
