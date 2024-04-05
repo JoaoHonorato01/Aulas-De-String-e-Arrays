@@ -1,0 +1,19 @@
+package Exercicio01Array;
+
+public class ArraySomaDeTodosOsElementos {
+	
+		public static void main(String[] args) {
+	
+		int[] Numeros = { 60, 70, 80, 90, 100 };
+
+        int Soma = 0;
+        for (int i = 0; i < Numeros.length; i++) {
+            Soma += Numeros[i];
+        }
+
+        	System.out.println("A soma dos numeros : " + Soma);
+
+	}
+
+}
+	
