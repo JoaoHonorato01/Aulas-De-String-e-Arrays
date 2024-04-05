@@ -1,0 +1,27 @@
+package Exercicio04;
+
+import java.util.Scanner;
+
+public class RepitaOExercicioAnteriorIgnorandoMaiusculasMinusculas {
+
+	public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Digite o nome da cidade:");
+        String userInput = scan.next();
+
+        String str1 = "Curitiba";
+        String str2 = "curitiba";
+
+        boolean saoIguais = str1.equalsIgnoreCase(userInput);
+        if (saoIguais) {
+            System.out.println("As strings são iguais");
+        } else {
+            System.out.println("As strings são diferentes.");
+        }
+
+        scan.close();
+
+	}
+
+}
